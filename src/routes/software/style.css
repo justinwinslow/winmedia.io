@@ -57,7 +57,7 @@ section.portfolio ul li .image img {
 }
 
 section.portfolio ul li .image img.me {
-  margin-top: -15px;
+  margin-top: -30px;
 }
 
 @media(max-width: 900px) {
