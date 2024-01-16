@@ -45,7 +45,7 @@
           </p>
         </div>
         <div class="image">
-          <img src="/img/bookban.info.png" alt="Picture of me looking sharp :)">
+          <img src="/img/bookban.info.png" alt="Screenshot of bookban.info">
         </div>
       </li>
     </ul>
