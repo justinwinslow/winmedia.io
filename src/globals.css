@@ -1,0 +1,76 @@
+@import '/node_modules/normalize.css/normalize.css';
+@import '/fonts/fonts.css';
+
+:root {
+  --default-padding: 24px;
+  --color-primary: #C7DB01;
+  --color-secondary: #262623;
+  --color-tertiary: #ffa200;
+  --color-text: #3A3A34;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --some-variable: 0, 0, 0;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-secondary);
+  font-family: 'Century-Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-weight: lighter;
+  color: var(--color-text);
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: underline;
+}
+
+a.download {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.download::after {
+  font-family: Icons;
+  content: '\f090';
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+::selection {
+  background-color: var(--color-tertiary);
+}
+
+body > main {
+  flex: 1 1 auto;
+  overflow: auto;
+}

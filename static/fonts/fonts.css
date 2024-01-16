@@ -1,0 +1,24 @@
+/* fonts.css */
+
+@font-face {
+  font-family: 'Century-Gothic';
+  font-style: normal;
+  font-weight: normal;
+  font-smoothing: antialiased;
+  src: url('/fonts/century-gothic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Century-Gothic';
+  font-style: normal;
+  font-weight: bold;
+  font-smoothing: antialiased;
+  src: url('/fonts/century-gothic-bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Icons';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/node_modules/material-icons/iconfont/material-icons-sharp.woff') format('woff');
+}
