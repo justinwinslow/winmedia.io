@@ -12,7 +12,7 @@
 	},
 	"dependencies": {
 		"material-icons": "latest",
-		"normalize.css": "latest",
+		"normalize.css": "latest"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "latest",
