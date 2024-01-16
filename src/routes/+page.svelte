@@ -25,7 +25,7 @@
       </p>
     </section>
     <section class="container">
-      <img src="/img/jwin_001.jpg">
+      <img src="/img/jwin_001.jpg" alt="Picture of me looking sharp :)">
     </section>
   </div>
 </section>
