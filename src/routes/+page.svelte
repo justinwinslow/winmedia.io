@@ -31,5 +31,6 @@
 </section>
 
 <style>
+  @import '../globals.css';
   @import './style.css';
 </style>
