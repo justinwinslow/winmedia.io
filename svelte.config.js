@@ -1,3 +1,4 @@
+// import adapter from '@sveltejs/adapter-auto'; /* This is the app server adapter */
 import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
