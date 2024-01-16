@@ -23,7 +23,9 @@
           </p>
         </div>
         <div class="image">
-          <img src="/img/jwin_001.jpg" alt="Picture of me looking sharp :)" class="me">
+          <a href="http://www.jwindesign.com/winslowResume_web.pdf" target="_blank">
+            <img src="/img/jwin_001.jpg" alt="Picture of me looking sharp :)" class="me">
+          </a>
         </div>
       </li>
       <li>
@@ -45,7 +47,9 @@
           </p>
         </div>
         <div class="image">
-          <img src="/img/bookban.info.png" alt="Screenshot of bookban.info">
+          <a href="https://bookban.info" target="_blank">
+            <img src="/img/bookban.info.png" alt="Screenshot of bookban.info">
+          </a>
         </div>
       </li>
     </ul>
