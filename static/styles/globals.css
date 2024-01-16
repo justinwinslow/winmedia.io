@@ -6,7 +6,8 @@
   --color-primary: #C7DB01;
   --color-secondary: #262623;
   --color-tertiary: #ffa200;
-  --color-text: #3A3A34;
+  --color-text: #FFF;
+  --color-text-dark: #3A3A34;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,17 +42,28 @@ a {
   text-decoration: underline;
 }
 
-a.download {
+a.link-primary {
   text-decoration: none;
   font-weight: bold;
 }
 
-a.download::after {
+a.link-primary + a.link-primary {
+  margin-left: 6px;
+}
+
+a.link-primary::before {
   font-family: Icons;
-  content: '\f090';
   display: inline-block;
   vertical-align: middle;
-  margin-left: 3px;
+  margin-right: 3px;
+}
+
+a.link-primary.download::before {
+  content: '\f090';
+}
+
+a.link-primary.software::before {
+  content: '\e86f';
 }
 
 h1, h2, h3 {
