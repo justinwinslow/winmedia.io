@@ -1,8 +1,10 @@
+@import '../globals.css';
+
 .view.home {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: var(--default-padding);
+  padding: var(--padding-default);
   height: 100%;
   background-color: var(--color-primary);
   border-top: 12px solid var(--color-secondary);

@@ -19,9 +19,9 @@
         <a href="http://www.jwindesign.com/winslowResume_web.pdf" target="_blank" class="link-primary download">
           Download My Resume
         </a>
-        <!-- <a href="/software" class="link-primary software">
+        <a href="/software" class="link-primary software">
           Software
-        </a> -->
+        </a>
       </p>
     </section>
     <section class="container">
@@ -31,6 +31,5 @@
 </section>
 
 <style>
-  @import '../globals.css';
   @import './style.css';
 </style>

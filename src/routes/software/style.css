@@ -1,0 +1,73 @@
+@import '../../globals.css';
+
+.view.software {
+  border-top: 12px solid var(--color-primary);
+}
+
+.view.software header {
+  padding: var(--padding-default);
+  border-bottom: 1px solid var(--color-text-dark);
+}
+
+.view.software header h1 {
+  margin: 0;
+}
+
+.view.software header h1 > a {
+  text-decoration: none;
+
+}
+
+.view.software header h1 > a > span {
+  color: var(--color-primary);
+}
+
+section.portfolio {
+
+}
+
+section.portfolio ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+section.portfolio ul li {
+  padding: var(--padding-default);
+  border-bottom: 1px solid var(--color-text-dark);
+  display: flex;
+}
+
+section.portfolio ul li .description {
+  flex: 1;
+  padding-right: var(--padding-default);
+  max-width: 750px;
+}
+
+section.portfolio ul li .image {
+  flex: 0 0 300px;
+  height: 150px;
+  overflow: hidden;
+  border: 6px solid #fff;
+  margin: 24px 0;
+}
+
+section.portfolio ul li .image img {
+  max-width: 100%;
+}
+
+section.portfolio ul li .image img.me {
+  margin-top: -15px;
+}
+
+@media(max-width: 900px) {
+  section.portfolio ul li {
+    display: block;
+  }
+  section.portfolio ul li .description {
+    flex: none;
+  }
+  section.portfolio ul li .image {
+    flex: none;
+  }
+}
