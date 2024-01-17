@@ -15,7 +15,6 @@
 
 .view.software header h1 > a {
   text-decoration: none;
-
 }
 
 .view.software header h1 > a > span {
@@ -24,6 +23,11 @@
 
 section.portfolio {
 
+}
+
+section.portfolio a.link-primary:hover {
+  color: var(--color-primary);
+  transition: color 0.3s ease-in-out;
 }
 
 section.portfolio ul {

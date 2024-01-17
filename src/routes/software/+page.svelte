@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>WinMedia | More about my software projects</title>
+</svelte:head>
+
 <section class="view software">
   <header>
     <h1><a href="/">Win<span>Media</span></a></h1>

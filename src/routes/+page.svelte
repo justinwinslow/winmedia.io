@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>WinMedia | Digital portfolio of Austin-based software engineer, designer, and musician Justin Winslow</title>
+</svelte:head>
+
 <section class="view home">
   <div class="container-wrapper">
     <section class="container">
