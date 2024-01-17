@@ -87,7 +87,7 @@
 </section>
 
 <script>
-  import Highlight from 'svelte-highlight';
+  import { Highlight } from 'svelte-highlight';
   import js from 'svelte-highlight/languages/javascript';
   import code from './rule-json';
   import 'svelte-highlight/styles/obsidian.css';
