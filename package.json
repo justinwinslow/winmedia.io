@@ -1,32 +1,32 @@
 {
-	"name": "winmedia.io",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
-		"lint": "eslint ."
-	},
-	"dependencies": {
-		"material-icons": "latest",
-		"normalize.css": "latest",
-		"svelte-highlight": "latest"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "latest",
-		"@sveltejs/adapter-static": "latest",
-		"@sveltejs/kit": "latest",
-		"@sveltejs/vite-plugin-svelte": "latest",
-		"@types/eslint": "latest",
-		"eslint": "latest",
-		"eslint-plugin-svelte": "latest",
-		"svelte": "latest",
-		"svelte-check": "latest",
-		"typescript": "latest",
-		"vite": "latest"
-	},
-	"type": "module"
+  "name": "winmedia.io",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "material-icons": "latest",
+    "normalize.css": "latest",
+    "svelte-highlight": "latest"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "latest",
+    "@sveltejs/adapter-static": "latest",
+    "@sveltejs/kit": "latest",
+    "@sveltejs/vite-plugin-svelte": "latest",
+    "@types/eslint": "latest",
+    "eslint": "latest",
+    "eslint-plugin-svelte": "latest",
+    "svelte": "latest",
+    "svelte-check": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "type": "module"
 }
