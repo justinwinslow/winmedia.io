@@ -21,7 +21,7 @@
             hiring and mentoring engineers.
           </p>
           <p>
-            <a href="http://www.jwindesign.com/winslowResume_web.pdf" target="_blank" class="link-primary download">
+            <a href="/resume-2024-001.pdf" target="_blank" class="link-primary download">
               Continue Reading
             </a>
           </p>

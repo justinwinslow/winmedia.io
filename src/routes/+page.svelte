@@ -20,7 +20,7 @@
       </p>
 
       <p>
-        <a href="http://www.jwindesign.com/winslowResume_web.pdf" target="_blank" class="link-primary download">
+        <a href="/resume-2024-001.pdf" target="_blank" class="link-primary download">
           Download My Resume
         </a>
         <a href="/software" class="link-primary software">
