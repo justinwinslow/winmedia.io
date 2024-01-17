@@ -49,7 +49,7 @@
         </div>
         <div class="image">
           <a href="/software/case-study-complex-rule-sets">
-            <img src="/img/case-study/complex-rule-sets/thumbnail.png" alt="Visual representation of complex rule sets" class="rules-thumbnail">
+            <img src="/img/thumbnail.png" alt="Visual representation of complex rule sets" class="rules-thumbnail">
           </a>
         </div>
       </li>
