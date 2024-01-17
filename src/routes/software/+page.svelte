@@ -49,7 +49,7 @@
         </div>
         <div class="image">
           <a href="/software/case-study-complex-rule-sets">
-            <img src="/img/thumbnail.png" alt="Visual representation of complex rule sets" class="rules-thumbnail">
+            <img src={image001} alt="Visual representation of complex rule sets" class="rules-thumbnail">
           </a>
         </div>
       </li>
@@ -73,7 +73,7 @@
         </div>
         <div class="image">
           <a href="https://bookban.info" target="_blank">
-            <img src="/img/bookban.info.png" alt="Screenshot of bookban.info">
+            <img src={image002} alt="Screenshot of bookban.info">
           </a>
         </div>
       </li>
@@ -83,6 +83,8 @@
 
 <script>
   import { Nav } from '../../components/nav';
+  import image001 from './images/thumb-rules.png';
+  import image002 from './images/thumb-bookban.info.png';
 </script>
 
 <style>
