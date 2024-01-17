@@ -1,24 +1,3 @@
-.view.software {
-  border-top: 12px solid var(--color-primary);
-}
-
-.view.software > header {
-  padding: var(--padding-default);
-  border-bottom: 1px solid var(--color-text-dark);
-}
-
-.view.software > header h1 {
-  margin: 0;
-}
-
-.view.software > header h1 > a {
-  text-decoration: none;
-}
-
-.view.software > header h1 > a > span {
-  color: var(--color-primary);
-}
-
 section.portfolio {
 
 }

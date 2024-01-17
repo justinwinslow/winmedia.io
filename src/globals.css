@@ -67,6 +67,10 @@ a.link-primary.software::before {
   content: '\e86f';
 }
 
+a.link-primary.media::before {
+  content: '\e019';
+}
+
 a.link-primary.external-site::before {
   content: '\e89e';
 }
@@ -103,4 +107,75 @@ button:focus {
 body > main {
   flex: 1 1 auto;
   overflow: auto;
+}
+
+.view {
+  border-top: 12px solid var(--color-primary);
+}
+
+.view > header {
+  padding: var(--padding-default);
+  border-bottom: 1px solid var(--color-text-dark);
+  display: flex;
+}
+
+.view > header h1 {
+  margin: 0;
+  flex: 1;
+}
+
+.view > header h1 > a {
+  text-decoration: none;
+}
+
+.view > header h1 > a > span {
+  color: var(--color-primary);
+}
+
+.view > header > nav {
+  flex: 1;
+}
+
+.view > header > nav > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.view > header > nav > ul > li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  margin-left: 12px;
+}
+
+.view > header > nav > ul > li > a {
+  font-size: 0;
+  color: var(--color-text-dark);
+}
+
+.view > header > nav > ul > li > a:before {
+  font-family: Icons;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.view > header > nav > ul > li > a:hover {
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.view > header > nav > ul > li > a.active {
+  color: #fff;
+}
+
+.view > header > nav > ul > li > a.software:before {
+  content: '\e86f';
+}
+
+.view > header > nav > ul > li> a.media:before {
+  content: '\e019';
 }

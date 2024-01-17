@@ -5,6 +5,12 @@
 <section class="view software">
   <header>
     <h1><a href="/">Win<span>Media</span></a></h1>
+    <nav>
+      <ul>
+        <li><a href="/media" class="media">Media</a></li>
+        <li><a href="/software" class="software active">Software</a></li>
+      </ul>
+    </nav>
   </header>
   <section class="case-study">
     <a href="/software" class="link-back">Back to Software</a>
