@@ -31,7 +31,7 @@
     <p>
       A rule-builder is much more complicated than I would have guessed when starting the project.
       It's easy to say, "I want the car to be blue AND I want the car to have a V6" but what about
-      "I want the car to be blue OR I want the car to red". Further, you could have a case where you
+      "I want the car to be blue OR I want the car to be red". Further, you could have a case where you
       want the car to be blue or red AND have a V6. To meet as many cases as possible you need top
       level rules, compound rules, and rules that can be nested under another rule.
       You can see how this can be a bit of mind bender.
@@ -78,7 +78,7 @@
     </p>
     <h3>Conclusion</h3>
     <p>
-      There's more to say about how the earliest implentations within given contexts (like the filter step or mappings)
+      There's more to say about how the earliest implementations within given contexts (like the filter step or mappings)
       succeeded and failed but that's for another time. The fundamental user experience of how the rule builder worked
       has remained the same for close to 10 years &ndash; having survived design changes and code refactors &ndash; and
       has been one of the most critical points of success for LeadConduit and its ecosystem of tools.
