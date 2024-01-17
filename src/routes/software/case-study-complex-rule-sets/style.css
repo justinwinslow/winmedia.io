@@ -1,4 +1,5 @@
 @import '../../../globals.css';
+@import '../style.css';
 
 .case-study {
   padding: var(--padding-default);
