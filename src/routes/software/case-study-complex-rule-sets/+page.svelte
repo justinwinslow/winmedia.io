@@ -30,7 +30,7 @@
     </p>
     <p>
       A rule-builder is much more complicated than I would have guessed when starting the project.
-      It's easy to say, "I want the car to be blue AND I want the car to have a v6" but what about
+      It's easy to say, "I want the car to be blue AND I want the car to have a V6" but what about
       "I want the car to be blue OR I want the car to red". Further, you could have a case where you
       want the car to be blue or red AND have a V6. To meet as many cases as possible you need top
       level rules, compound rules, and rules that can be nested under another rule.
