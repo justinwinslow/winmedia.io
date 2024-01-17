@@ -34,6 +34,26 @@
       </li>
       <li>
         <div class="description">
+          <h2>Case Study: Complex Rule Sets</h2>
+          <p>
+            One of the most critical components of LeadConduit was a featured aptly called “rules”.
+            Rules could be used in multiple places and needed to be incredibly flexible to accommodate
+            a vast array of user concerns.
+          </p>
+          <p>
+            <a href="/software/case-study-complex-rule-sets" class="link-primary article">
+              Continue Reading
+            </a>
+          </p>
+        </div>
+        <div class="image">
+          <a href="/software/case-study-complex-rule-sets">
+            <img src="/img/case-study/complex-rule-sets/thumbnail.png" alt="Visual representation of complex rule sets" class="rules-thumbnail">
+          </a>
+        </div>
+      </li>
+      <li>
+        <div class="description">
           <h2>BookBan.info</h2>
           <p>
             With all the recent book banning in the US I realized there wasn't an easily searchable

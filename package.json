@@ -12,7 +12,8 @@
 	},
 	"dependencies": {
 		"material-icons": "latest",
-		"normalize.css": "latest"
+		"normalize.css": "latest",
+		"svelte-highlight": "latest"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "latest",

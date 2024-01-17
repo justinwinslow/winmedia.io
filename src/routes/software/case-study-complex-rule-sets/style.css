@@ -1,0 +1,13 @@
+@import '../../../globals.css';
+
+.case-study {
+  padding: var(--padding-default);
+}
+
+.case-study p, .case-study pre {
+  max-width: 750px;
+}
+
+.case-study img {
+  max-width: 100%;
+}
