@@ -1,6 +1,6 @@
 # winmedia.io
 
-This is my personal portfolio site. Feel free to look around o clone the repo and send me a message if you feel like it: justin@jwin.me
+This is my personal portfolio site. Feel free to look around or clone the repo and send me a message if you feel like it: justin@jwin.me
 
 ## Developing
 
