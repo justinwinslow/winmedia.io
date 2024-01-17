@@ -16,7 +16,7 @@
       closest to what we were trying to achieve was the Smart Playlist builder in iTunes.
     </p>
     <p>
-      <img src="/img/case-study/complex-rule-sets/itunes-rules-001.png" alt="Rules in iTunes app from 2013">
+      <img src={image001} alt="Rules in iTunes app from 2013">
     </p>
     <p>
       This proved to be the right direction but not a comprehensive solution.
@@ -52,7 +52,7 @@
     </p>
     <p>
       <img
-        src="/img/case-study/complex-rule-sets/filter-step-001.png"
+        src={image002}
         alt="Single rule describing a situation where if this is not equal to that, take action"
       >
     </p>
@@ -65,7 +65,7 @@
       to be bundled together with an "and" or "or" operator.
     </p>
     <p>
-      <img src="/img/case-study/complex-rule-sets/filter-step-002.png" alt="Examples of compound rules">
+      <img src={image003} alt="Examples of compound rules">
     </p>
     <p>
       Now we were able to accomplish a number of sophisticated tasks entirely within the UI &mdash; including
@@ -73,7 +73,7 @@
     </p>
     <p>
       <img
-        src="/img/case-study/complex-rule-sets/mappings-001.png"
+        src={image004}
         alt="Examples of mappings and rules being used to integrate with 3rd party software"
       >
     </p>
@@ -93,6 +93,12 @@
   import js from 'svelte-highlight/languages/javascript';
   import code from './rule-json';
   import 'svelte-highlight/styles/obsidian.css';
+
+  import image001 from './images/itunes-rules-001.png';
+  import image002 from './images/filter-step-001.png';
+  import image003 from './images/filter-step-002.png';;
+  import image004 from './images/mappings-001.png';
+
 </script>
 
 <style>
