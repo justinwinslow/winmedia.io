@@ -21,7 +21,7 @@
 
       <p>
         <a href="/resume-2024-001.pdf" target="_blank" class="link-primary download">
-          Download My Resume
+          Download My Résumé
         </a>
         <a href="/software" class="link-primary software">
           Software

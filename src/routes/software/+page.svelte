@@ -10,7 +10,7 @@
     <ul>
       <li>
         <div class="description">
-          <h2>Resume</h2>
+          <h2>Résumé</h2>
           <p>
             I've done design and development for companies ranging from 20 to 20,000 employees,
             in sectors as diverse as insurance, solar technology, and marketing automation.
