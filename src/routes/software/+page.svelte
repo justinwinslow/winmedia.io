@@ -5,12 +5,7 @@
 <section class="view software">
   <header>
     <h1><a href="/">Win<span>Media</span></a></h1>
-    <nav>
-      <ul>
-        <li><a href="/media" class="media">Media</a></li>
-        <li><a href="/software" class="software active">Software</a></li>
-      </ul>
-    </nav>
+    <Nav active="software" />
   </header>
   <section class="portfolio">
     <ul>
@@ -85,6 +80,10 @@
     </ul>
   </section>
 </section>
+
+<script>
+  import { Nav } from '../../components/nav';
+</script>
 
 <style>
   @import './style.css';

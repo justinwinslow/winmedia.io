@@ -5,12 +5,7 @@
 <section class="view software">
   <header>
     <h1><a href="/">Win<span>Media</span></a></h1>
-    <nav>
-      <ul>
-        <li><a href="/media" class="media">Media</a></li>
-        <li><a href="/software" class="software active">Software</a></li>
-      </ul>
-    </nav>
+    <Nav active="software" />
   </header>
   <section class="case-study">
     <a href="/software" class="link-back">Back to Software</a>
@@ -93,6 +88,7 @@
 </section>
 
 <script>
+  import { Nav } from '../../../components/nav';
   import { Highlight } from 'svelte-highlight';
   import js from 'svelte-highlight/languages/javascript';
   import code from './rule-json';
