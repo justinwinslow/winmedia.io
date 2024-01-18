@@ -168,7 +168,7 @@ section.portfolio .carousel::-webkit-scrollbar {
 }
 
 section.portfolio .carousel::-webkit-scrollbar-thumb {
-  background-color: var(--color-text-dark);
+  background-color: #5b5b4f; /* This is a one-off. Maybe revisit. */
 }
 
 /* / */

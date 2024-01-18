@@ -21,7 +21,7 @@
 
       <p>
         <a href="/software" class="link-primary software">
-          Software
+          Software &amp; Design
         </a>
         <a href="/media" class="link-primary media">
           Audio &amp; Video

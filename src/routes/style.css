@@ -67,6 +67,11 @@
     transform: none;
   }
 
+  .view.home p a.link-primary {
+    display: block;
+    margin-left: 0;
+  }
+
   .view.home .container-wrapper {
     display: block;
   }
