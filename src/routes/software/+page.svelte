@@ -109,7 +109,7 @@
   import design005 from './images/design/website-savvy-musician.jpg';
 
   import { Modals, closeModal, openModal } from 'svelte-modals';
-  import Modal from '../../components/modal/Modal.svelte';
+  import Modal from '../../components/modal';
 
   function openModal001() {
     openModal(Modal, {

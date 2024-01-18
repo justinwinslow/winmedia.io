@@ -31,7 +31,7 @@
 
   nav.primary > ul > li > a {
     font-size: 0;
-    color: var(--color-text-dark);
+    color: #5b5b4f; /* This is a one-off to lighten the nav items. Maybe revisit. */
   }
 
   nav.primary > ul > li > a:before {
