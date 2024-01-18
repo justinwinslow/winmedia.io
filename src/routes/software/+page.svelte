@@ -139,7 +139,7 @@
     openModal(Modal, {
       header: 'SolarWinds SNMP Enabler',
       description: 'While at SolarWinds I had the opporunity to design a Win32 app that would serve as a marketing tool for their other products.',
-      image: design003
+      image: design004
     });
   }
 
@@ -147,7 +147,7 @@
     openModal(Modal, {
       header: 'The Savvy Musician Website',
       description: 'I designed and developed this promotional site for the epnomous book release.',
-      image: design004
+      image: design005
     });
   }
 </script>
