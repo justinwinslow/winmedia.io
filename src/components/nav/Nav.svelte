@@ -2,6 +2,7 @@
   <ul>
     <li><a href="/media" class="media" class:active={active == 'media'}>Media</a></li>
     <li><a href="/software" class="software" class:active={active == 'software'}>Software</a></li>
+    <li><a href="/" class="home">Home</a></li>
   </ul>
 </nav>
 
@@ -48,6 +49,10 @@
 
   nav.primary > ul > li > a.active {
     color: #fff;
+  }
+
+  nav.primary > ul > li > a.home:before {
+    content: '\e88a';
   }
 
   nav.primary > ul > li > a.software:before {
