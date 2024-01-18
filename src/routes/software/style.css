@@ -86,12 +86,30 @@ a.link-back:hover {
   }
 }
 
+.view.software .portfolio .carousel-container {
+  position: relative;
+}
+
+.view.software .portfolio .carousel {
+}
+
+.view.software .portfolio .carousel::after {
+  position: absolute;
+  right: 24px;
+  display: inline-block;
+  content: ' ';
+  height: 200px;
+  max-height: 100%;
+  width: 90px;
+  background: linear-gradient(90deg, rgba(38,38,35,0) 0%, rgba(38,38,35,1) 100%);
+}
+
 .view.software .portfolio .carousel img {
-  max-height: 200px;
+  max-height: 180px;
   cursor: pointer;
   transition: max-height 0.3s ease-in-out;
 }
 
 .view.software .portfolio .carousel img:hover {
-  max-height: 224px;
+  max-height: 200px;
 }

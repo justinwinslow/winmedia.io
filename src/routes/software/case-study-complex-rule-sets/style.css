@@ -8,6 +8,10 @@
   max-width: 750px;
 }
 
+.case-study pre {
+  font-size: 15px;
+}
+
 .case-study img {
   max-width: 100%;
 }
