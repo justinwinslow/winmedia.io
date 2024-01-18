@@ -29,14 +29,10 @@
       </p>
     </section>
     <section class="container">
-      <img src={imgUrl} alt="Picture of me looking sharp :)">
+      <img src="/img/jwin_001.jpg" alt="Picture of me looking sharp :)">
     </section>
   </div>
 </section>
-
-<script>
-  const imgUrl = new URL('/img/jwin_001.jpg', import.meta.url).href;
-</script>
 
 <style>
   @import './style.css';
