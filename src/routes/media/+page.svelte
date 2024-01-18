@@ -9,10 +9,10 @@
   </header>
   <section class="portfolio">
     <ul>
-      <li>
+      <li class="carousel-container">
         <h2>Live in the Studio</h2>
         <p>This is a series of videos of local Austin groups produced, filmed, and recorded by myself and some friends.</p>
-        <div class="videos">
+        <div class="carousel">
           <iframe width="480" height="270" src="https://www.youtube.com/embed/BnUriRNQfRg?si=w0bOhwG38NFmiKYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <iframe width="480" height="270" src="https://www.youtube.com/embed/LCv9fguWy1Y?si=VmtGdYfvDPSXCpSv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <iframe width="480" height="270" src="https://www.youtube.com/embed/ceREKAKV344?si=obpJ9RjLhQvsjnaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -11,27 +11,4 @@
 .view.media .portfolio ul li {
   padding: var(--padding-default);
   border-bottom: 1px solid var(--color-text-dark);
-  display: block;
-}
-
-.view.media .portfolio .videos {
-  display: block;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  max-width: 100%;
-}
-
-.view.media .portfolio .videos iframe {
-  display: inline-block;
-}
-
-.view.media .portfolio .videos::-webkit-scrollbar {
-  width: 5px;
-  height: 8px;
-  background-color: transparent;
-}
-
-.view.media .portfolio .videos::-webkit-scrollbar-thumb {
-  background-color: var(--color-text-dark);
 }

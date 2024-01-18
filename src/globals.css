@@ -100,6 +100,14 @@ button:focus {
   outline: none;
 }
 
+button {
+  border: none;
+  color: #fff;
+  background-color: var(--color-text-dark);
+  padding: 9px 15px;
+  cursor: pointer;
+}
+
 ::selection {
   background-color: var(--color-tertiary);
 }
@@ -132,50 +140,35 @@ body > main {
   color: var(--color-primary);
 }
 
-.view > header > nav {
-  flex: 1;
+/*
+  Portfolio Carousel
+  NOTE - This could possibly be made into a component
+*/
+
+.carousel-container {
+  display: block!important;
 }
 
-.view > header > nav > ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+section.portfolio .carousel {
+  display: block;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  max-width: 100%;
 }
 
-.view > header > nav > ul > li {
-  margin: 0;
-  padding: 0;
+section.portfolio .carousel iframe {
   display: inline-block;
-  float: right;
-  margin-left: 12px;
 }
 
-.view > header > nav > ul > li > a {
-  font-size: 0;
-  color: var(--color-text-dark);
+section.portfolio .carousel::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: transparent;
 }
 
-.view > header > nav > ul > li > a:before {
-  font-family: Icons;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 24px;
-  line-height: 36px;
+section.portfolio .carousel::-webkit-scrollbar-thumb {
+  background-color: var(--color-text-dark);
 }
 
-.view > header > nav > ul > li > a:hover {
-  color: #fff;
-  transition: color 0.3s ease-in-out;
-}
-
-.view > header > nav > ul > li > a.active {
-  color: #fff;
-}
-
-.view > header > nav > ul > li > a.software:before {
-  content: '\e86f';
-}
-
-.view > header > nav > ul > li> a.media:before {
-  content: '\e019';
-}
+/* / */

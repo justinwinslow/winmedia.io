@@ -77,14 +77,71 @@
           </a>
         </div>
       </li>
+      <li class="carousel-container">
+        <h2>Assorted Design Projects</h2>
+        <p>Click image for more info.</p>
+
+        <div class="carousel">
+          <img src={design001} alt="Logo for agile3" on:click="{openModal001}">
+          <img src={design002} alt="Poster for a tiki party" on:click="{openModal002}">
+          <img src={design003} alt="SolarWinds SNMP Enabler" on:click="{openModal003}">
+          <img src={design004} alt="Savvy Musician Website" on:click="{openModal004}">
+        </div>
+      </li>
     </ul>
   </section>
 </section>
+
+<Modals>
+  <div
+    slot="backdrop"
+    class="modal-backdrop"
+    on:click={closeModal}
+  />
+</Modals>
 
 <script>
   import { Nav } from '../../components/nav';
   import thumbnail001 from './images/thumb-rules.png';
   import thumbnail002 from './images/thumb-bookban.info.png';
+
+  import design001 from './images/design/logo-agile-3.png';
+  import design002 from './images/design/poster-party-2020911.png';
+  import design003 from './images/design/app-snmp-enabler.png';
+  import design004 from './images/design/website-savvy-musician.jpg';
+
+  import { Modals, closeModal, openModal } from 'svelte-modals';
+  import Modal from '../../components/modal/Modal.svelte';
+
+  function openModal001() {
+    openModal(Modal, {
+      header: 'Exercise in Logo Design',
+      image: design001
+    });
+  }
+
+  function openModal002() {
+    openModal(Modal, {
+      header: 'Poster for a tiki-themed party',
+      image: design002
+    });
+  }
+
+  function openModal003() {
+    openModal(Modal, {
+      header: 'SolarWinds SNMP Enabler',
+      description: 'While at SolarWinds I had the opporunity to design a Win32 app that would serve as a marketing tool for their other products.',
+      image: design003
+    });
+  }
+
+  function openModal004() {
+    openModal(Modal, {
+      header: 'The Savvy Musician Website',
+      description: 'I designed and developed this promotional site for the epnomous book release.',
+      image: design004
+    });
+  }
 </script>
 
 <style>

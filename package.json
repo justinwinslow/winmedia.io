@@ -13,7 +13,8 @@
   "dependencies": {
     "material-icons": "latest",
     "normalize.css": "latest",
-    "svelte-highlight": "latest"
+    "svelte-highlight": "latest",
+    "svelte-modals": "latest"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "latest",

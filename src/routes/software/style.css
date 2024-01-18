@@ -1,31 +1,31 @@
-section.portfolio {
+.view.software .portfolio {
 
 }
 
-section.portfolio a.link-primary:hover {
+.view.software .portfolio a.link-primary:hover {
   color: var(--color-primary);
   transition: color 0.3s ease-in-out;
 }
 
-section.portfolio ul {
+.view.software .portfolio ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-section.portfolio ul li {
+.view.software .portfolio ul li {
   padding: var(--padding-default);
   border-bottom: 1px solid var(--color-text-dark);
   display: flex;
 }
 
-section.portfolio ul li .description {
+.view.software .portfolio ul li .description {
   flex: 1;
   padding-right: var(--padding-default);
   max-width: 750px;
 }
 
-section.portfolio ul li .image {
+.view.software .portfolio ul li .image {
   flex: 0 0 300px;
   height: 150px;
   overflow: hidden;
@@ -33,7 +33,7 @@ section.portfolio ul li .image {
   margin: 24px 0;
 }
 
-section.portfolio ul li .image img {
+.view.software .portfolio ul li .image img {
   max-width: 100%;
 }
 
@@ -41,11 +41,11 @@ section.portfolio ul li .image img {
   Custom rules for framing thumbnails better
 */
 
-section.portfolio ul li .image img.me {
+.view.software .portfolio ul li .image img.me {
   margin-top: -30px;
 }
 
-section.portfolio ul li .image img.rules-thumbnail {
+.view.software .portfolio ul li .image img.rules-thumbnail {
   max-width: inherit;
   max-height: 200%;
 }
@@ -75,13 +75,23 @@ a.link-back:hover {
 }
 
 @media(max-width: 900px) {
-  section.portfolio ul li {
+  .view.software .portfolio ul li {
     display: block;
   }
-  section.portfolio ul li .description {
+  .view.software .portfolio ul li .description {
     flex: none;
   }
-  section.portfolio ul li .image {
+  .view.software .portfolio ul li .image {
     flex: none;
   }
+}
+
+.view.software .portfolio .carousel img {
+  max-height: 200px;
+  cursor: pointer;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.view.software .portfolio .carousel img:hover {
+  max-height: 224px;
 }
