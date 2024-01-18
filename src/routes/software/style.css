@@ -99,7 +99,6 @@ a.link-back:hover {
   display: inline-block;
   content: ' ';
   height: 200px;
-  max-height: 100%;
   width: 90px;
   background: linear-gradient(90deg, rgba(38,38,35,0) 0%, rgba(38,38,35,1) 100%);
 }
