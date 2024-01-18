@@ -116,6 +116,7 @@
   function openModal001() {
     openModal(Modal, {
       header: 'Exercise in Logo Design',
+      description: 'You may have heard of Agile 2 but wait until you learn about agile3. This was a fun branding exercise for a fictional methodology.',
       image: design001
     });
   }
@@ -123,6 +124,7 @@
   function openModal002() {
     openModal(Modal, {
       header: 'Poster for a tiki-themed party',
+      description: 'I love designing posters and you might have noticed a familiar color palette on this one.',
       image: design002
     });
   }
