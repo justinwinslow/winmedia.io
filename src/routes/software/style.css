@@ -87,20 +87,7 @@ a.link-back:hover {
 }
 
 .view.software .portfolio .carousel-container {
-  position: relative;
-}
-
-.view.software .portfolio .carousel {
-}
-
-.view.software .portfolio .carousel::after {
-  position: absolute;
-  right: 24px;
-  display: inline-block;
-  content: ' ';
-  height: 200px;
-  width: 90px;
-  background: linear-gradient(90deg, rgba(38,38,35,0) 0%, rgba(38,38,35,1) 100%);
+  max-width: 1050px;
 }
 
 .view.software .portfolio .carousel img {
