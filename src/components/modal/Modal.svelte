@@ -75,6 +75,9 @@
   margin: 0;
   font-weight: bold;
   padding-right: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .modal header .close {
