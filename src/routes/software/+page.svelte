@@ -37,7 +37,7 @@
         <div class="description">
           <h2>Case Study: Complex Rule Sets</h2>
           <p>
-            One of the most critical components of ActiveProspect's LeadConduit product was a featured
+            One of the most critical components of ActiveProspect's LeadConduit product was a feature
             aptly called “rules”. Rules could be used in multiple places and needed to be incredibly
             flexible to accommodate a vast array of user concerns.
           </p>
