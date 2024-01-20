@@ -2,6 +2,8 @@
 
 This is my personal portfolio site. Feel free to look around or clone the repo and send me a message if you feel like it: justin@jwin.me
 
+Site is live at [winmedia.io](https://winmndia.io)
+
 ## Developing
 
 Install dependencies with `npm install` (or `pnpm install` or `yarn`) and start a development server:
