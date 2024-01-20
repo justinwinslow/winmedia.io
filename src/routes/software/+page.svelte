@@ -25,6 +25,9 @@
             <a href="/resume-2024-001.pdf" target="_blank" class="link-primary download">
               Continue Reading
             </a>
+            <a href="/resume-2024-001.pdf" target="_blank" class="link-primary github">
+              My GitHub
+            </a>
           </p>
         </div>
         <div class="image">
