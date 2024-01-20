@@ -2,7 +2,7 @@
 
 This is my personal portfolio site. Feel free to look around or clone the repo and send me a message if you feel like it: justin@jwin.me
 
-Site is live at [winmedia.io](https://winmndia.io)
+Site is live at [winmedia.io](https://winmedia.io)
 
 ## Developing
 
