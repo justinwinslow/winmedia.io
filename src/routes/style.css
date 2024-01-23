@@ -53,6 +53,10 @@
   color: var(--color-text-dark);
 }
 
+.view.home p a.link-primary::before {
+  margin-top: -2px;
+}
+
 @media(max-width: 900px) {
   .view.home {
     display: block;

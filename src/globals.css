@@ -43,7 +43,6 @@ a {
 }
 
 a.link-primary {
-  text-decoration: none;
   font-weight: bold;
 }
 
@@ -56,7 +55,7 @@ a.link-primary::before {
   display: inline-block;
   vertical-align: middle;
   margin-right: 3px;
-  margin-top: -2px;
+  margin-top: -1px;
 }
 
 a.link-primary.download::before {
